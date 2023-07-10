@@ -1,3 +1,8 @@
+# Contact Us
+Provides an initial setup for Drupal projects using Lando & Docker.
+
+This project has a custom module to create a custom Rest API
+These are the endpoints available:
 # Composer-enabled Drupal template
 
 This is Pantheon's recommended starting point for forking new [Drupal](https://www.drupal.org/) upstreams
