@@ -13,6 +13,10 @@ These are the endpoints available:
     "email": "jocyroman@gmail.com"
 }
 
+Response:
+- 200: Fields are correct and returns a Suceesful message.
+- 400: Fields are not correct and returns an array of erros.
+
 
 # Composer-enabled Drupal template
 
