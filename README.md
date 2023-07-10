@@ -11,7 +11,7 @@ These are the endpoints available:
  {
     "phone_number": "123457690",
     "email": "jocyroman@gmail.com"
-}
+  }
 
 Response:
 - 200: Fields are correct and returns a Suceesful message.
