@@ -7,7 +7,7 @@ These are the endpoints available:
 * /myapi/form/validate
  - POST: This endpoint validates the email and phone_number.
 
- Exmaple of body: 
+ Example of body: 
  {
     "phone_number": "123457690",
     "email": "jocyroman@gmail.com"
