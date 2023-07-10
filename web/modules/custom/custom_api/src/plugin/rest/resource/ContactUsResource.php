@@ -43,6 +43,15 @@ class ContactUsResource extends ResourceBase {
       ];
     }
 
+    // Validate email.
+    if (!\Drupal::service('email.validator')->isValid($email)
+    || preg_match('/\S+@gmail\.com$/', $email)) {
+      $errors[] = [
+        'field' => 'email',
+        'error_msg' => 'Email is required and should not contain @gmail.',
+      ];
+    }
+
     if ($errors) {
       return new ModifiedResourceResponse([
         'errors' => $errors,
